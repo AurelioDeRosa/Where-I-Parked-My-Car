@@ -1,0 +1,23 @@
+.ui-header .ui-title,
+.ui-footer .ui-title,
+.ui-btn-inner *
+{
+   white-space: normal !important;
+}
+
+.photo
+{
+   display: block;
+   margin: 0px auto;
+}
+
+dl.informations dt
+{
+   font-weight: bold;
+}
+
+#map
+{
+   width: 100%;
+   height: 600px;
+}

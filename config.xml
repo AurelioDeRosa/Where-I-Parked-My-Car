@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+        xmlns:gap	= "http://phonegap.com/ns/1.0"
+        id		   = "com.audero.free.utility.whereiparkedmycar"
+        version 	= "1.0.0">
+
+   <name>Where I parked my car</name>
+
+   <description>"Where I parked my car" is an application for mobile devices that lets you bookmark where you parked your car, and then find a route to return to it. This application is useful if you don't have a good memory or if you're in a foreign city. In addition, "Where I parked my car" will also save a log of your saved positions (up to 50), so that you can retrieve a location for future use. The list allows you to see the position on a map, and you can also to delete one or more old locations.</description>
+
+   <author href="http://www.audero.it" email="aurelioderosa@gmail.com">Aurelio De Rosa</author>
+
+   <icon src="icon.png" gap:role="default" />
+
+   <feature name="http://api.phonegap.com/1.0/network"/>
+   <feature name="http://api.phonegap.com/1.0/geolocation"/>
+
+   <preference name="phonegap-version" value="2.0.0" />
+   <preference name="target-device" value="universal" />
+
+   <!-- Splash Screens -->
+   <gap:splash src="splash.png" />
+   <gap:splash src="images/splash-160x220.png" gap:platform="android" gap:density="ldpi" />
+   <gap:splash src="images/splash-220x330.png" gap:platform="android" gap:density="mdpi" />
+   <gap:splash src="images/splash-450x650.png" gap:platform="android" gap:density="hdpi" />
+</widget>
